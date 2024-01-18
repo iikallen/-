@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <title>Флексы</title>
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <h1>Rayal Park</h1>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Gallary</a>
+                <a href="#">Testimonials</a>
+            </nav>
+            <div class="btn">
+                <a href="Book now">Book now</a>
+            </div>
+            <a class="menu__btn" href="#">
+                <span></span>
+            </a>
+        </header>
+
+        <section class="block__1">
+            <h2>Serenity</h2>
+            <h3>Stay with us feel like <span>home</span>.</h3>
+            <p>Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.
+            </p>
+            <div class="btn__read__more">
+                <a href="#">Read more</a>
+            </div>
+        </section>
+    </div>
+</body>
+
+<script>
+    const menu = document.querySelector('.menu__btn')
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('active')
+    })
+</script>
+</html>
