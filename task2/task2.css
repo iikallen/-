@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+    padding: 32px 157px;
+}
+
+nav ul {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: repeat(6, auto);
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1D2F38;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    margin-left: 5px;
+}
+
+.sign__up {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.sign__up a{
+    text-decoration: none;
+    color: #1D2F38;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    margin-left: 12px;
+}
+
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    padding: 32px 157px;
+}
+
+.grid_text{
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.grid_1{
+    grid-area: 2 / 1 / 5 / 2;
+}
+
+.grid_2{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.grid_3{
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.grid_4{
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.grid_view{
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+.grid_2, 
+.grid_3,
+.grid_4{
+    display: flex;
+    align-items: center;
+}
+
+.grid_2 span, 
+.grid_3 span,
+.grid_4 span{
+    color: #1D2F38;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    margin-left:15px; 
+}
+
+.grid_text h1{
+    color: #1D2F38;
+    font-family: Bitter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 105.263% */
+}
+
+.grid_1 h1{
+    color: #1D2F38;
+    font-family: Bitter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 116.667% */
+}
+
+.grid_1 p{
+    width: 546px;
+    color: #1D2F38;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.grid_view a{
+    text-decoration: none;
+    color: #1D2F38;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    display: flex;
+    align-items: center;
+}
